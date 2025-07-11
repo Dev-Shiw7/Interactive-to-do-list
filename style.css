@@ -1,0 +1,77 @@
+/* Using gpt entirely for this, it does it better */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+/* Task List */
+ul#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+#taskList li {
+  padding: 10px;
+  background-color: #eee;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#taskList button {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#taskList button:hover {
+  background-color: #c82333;
+}
