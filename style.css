@@ -62,6 +62,9 @@ ul#taskList {
   justify-content: space-between;
   align-items: center;
 }
+#taskList button.edit-btn {
+  background-color: #28a745;
+}
 
 #taskList button {
   background-color: #dc3545;
@@ -72,6 +75,3 @@ ul#taskList {
   cursor: pointer;
 }
 
-#taskList button:hover {
-  background-color: #c82333;
-}
